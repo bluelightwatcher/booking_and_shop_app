@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Blank Page</title>
+	</head>
+
+	<body>
+		<!-- Page content goes here -->
+		<header>
+			<div>
+				<nav>
+					<h1><a href="{{ url_for('main.main') }}">Accueil</a></h1>
+					<h1><a href="{{ url_for('main.restauration') }}">Restauration</a></h1>
+					<h1><a href="{{ url_for('main.tenture') }}">Pose de tenture</a></h1>
+					<h1><a href="{{ url_for('cours.cours') }}">Cours de Tapisserie</a></h1>
+					<h1><a href="{{ url_for('shop.boutique') }}">Boutique</a></h1>
+					<h1><a href="{{ url_for('auth.login') }}">login</a></h1>
+					<h1><a href="{{ url_for('main.contact') }}">Contact</a></h1>
+				</nav>
+			</div>
+		</header>
+	</body>
+</html>

@@ -1,0 +1,11 @@
+<form action="{{ url_for('auth.login')}}" method="POST">
+	<label for="firstname">First name:</label>
+	<input type="text" id="firstname" name="fname" placeholder="Prénom">
+	<label for="lastname">Last name:</label>
+	<input type="text" id="lastname" name="lname" placeholder="Nom">
+	<label for="email">email:</label>
+	<input type="text" id="email" name="email" placeholder="@email.com">
+	<label for="password">Mot de passe:</label>
+	<input type="text" id="mot de passe" name="password" placeholder="mon mot de passe">
+	<button type="submit">Se connecter</button>
+</form>
